@@ -1,0 +1,49 @@
+/* =========================================
+   courses.css
+   Video 3 - Course Cards with Flexbox
+   ========================================= */
+
+/* Course container */
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Course card */
+.course-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex-basis: 280px;
+
+  /* Flexbox inside the card */
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Course title */
+.course-card h3 {
+  margin-top: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Course description */
+.course-card p {
+  flex-grow: 1;
+}
+
+/* Course link */
+.course-card a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.course-card a:hover {
+  text-decoration: underline;
+}

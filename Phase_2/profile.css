@@ -1,0 +1,25 @@
+* =========================================
+   profile.css
+   Video 2 - Profile Page
+   ========================================= */
+
+/* Profile text */
+.profile-section {
+  text-align: left;
+}
+
+/* Profile headings */
+.profile-section h2 {
+  border-bottom: 2px solid #dbeafe;
+  padding-bottom: 8px;
+}
+
+/* Profile lists */
+.profile-section ul,
+.profile-section ol {
+  padding-left: 25px;
+}
+
+.profile-section li {
+  margin-bottom: 10px;
+}

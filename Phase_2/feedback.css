@@ -1,0 +1,65 @@
+/* =========================================
+   feedback.css
+   Video 4 - Feedback Form
+   ========================================= */
+
+/* Form */
+#feedback-form {
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Labels */
+#feedback-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+/* Input, select and textarea */
+#feedback-form input[type="text"],
+#feedback-form input[type="email"],
+#feedback-form select,
+#feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Focus */
+#feedback-form input:focus,
+#feedback-form select:focus,
+#feedback-form textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Checkbox */
+#feedback-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Button */
+#feedback-form button {
+  width: 100%;
+  padding: 11px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Button hover */
+#feedback-form button:hover {
+  background-color: #1e3a8a;
+}

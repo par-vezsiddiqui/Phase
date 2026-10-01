@@ -1,0 +1,182 @@
+/* =========================================
+   resume.css — Modern Executive Resume
+   ========================================= */
+/* =========================================
+   resume.css — Modern Executive Resume
+   ========================================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #000;
+  line-height: 1.35;
+  padding: 30px 10px;
+}
+
+/* Resume Main Container matching 1-page PDF layout */
+.resume {
+  max-width: 850px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px 45px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Name & Contact Info */
+header {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+header h1 {
+  font-size: 20pt;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  color: #000;
+}
+
+header .contact-info {
+  font-size: 9.5pt;
+  color: #000;
+}
+
+header .contact-info a {
+  color: #000;
+  text-decoration: none;
+}
+
+header .contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Section Headers */
+.resume-section {
+  margin-bottom: 14px;
+}
+
+.resume-section h2 {
+  font-size: 10.5pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #000;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+  margin-bottom: 6px;
+}
+
+/* Text & Bullet Styling */
+p, li {
+  font-size: 9.5pt;
+  color: #000;
+  text-align: justify;
+}
+
+/* Date and Location Alignment */
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: bold;
+  font-size: 9.5pt;
+  margin-top: 6px;
+  margin-bottom: 2px;
+}
+
+.item-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-style: italic;
+  font-size: 9.5pt;
+  margin-bottom: 4px;
+}
+
+ul {
+  padding-left: 18px;
+  margin-top: 3px;
+}
+
+li {
+  margin-bottom: 3px;
+}
+
+.skills-list p {
+  margin-bottom: 4px;
+  text-align: left;
+}
+
+/* Navigation Footer Styling */
+.resume-nav-section {
+  margin-top: 25px;
+  padding-top: 15px;
+}
+
+.resume-nav-section hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin-bottom: 20px;
+}
+
+.resume-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.resume-nav-list li a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f8f9fa;
+  color: #1e3a8a;
+  text-decoration: none;
+  font-size: 9.5pt;
+  font-weight: 600;
+  border: 1px solid #1e3a8a;
+  border-radius: 20px;
+  transition: all 0.25s ease-in-out;
+}
+
+.resume-nav-list li a:hover {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  box-shadow: 0 4px 8px rgba(30, 58, 138, 0.2);
+}
+
+.resume-nav-list li a.active {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+/* Print Setup to preserve single page print and hide navigation */
+@media print {
+  body {
+    background-color: #fff;
+    padding: 0;
+  }
+  .resume {
+    box-shadow: none;
+    padding: 0;
+    max-width: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .resume-nav-section {
+    display: none !important;
+  }
+}

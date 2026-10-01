@@ -1,0 +1,233 @@
+PHASE 2 CSS FILE MAP
+====================
+
+
+Video 1: Your First Stylesheet
+Use: style.css
+HTML pages: all pages
+Explain:
+- * selector
+- box-sizing
+- margin and padding
+- body font/background/color
+- header, nav, main, footer
+- link hover
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PHASE 2 CSS FILE MAP
+====================
+
+Video 2: Profile Page
+Use: profile.css
+HTML: profile.html
+Explain:
+- class selector (.profile-image)
+- display: block
+- margin: auto
+- width/height
+- border-radius: 50%
+- border
+- object-fit
+- padding and list styling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PHASE 2 CSS FILE MAP
+====================
+
+Video 3: Course Cards with Flexbox
+Use: courses.css
+HTML: courses.html
+Explain:
+- display: flex
+- flex-wrap
+- gap
+- justify-content
+- flex-basis
+- flex-direction
+- flex-grow
+- border/padding/box-shadow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PHASE 2 CSS FILE MAP
+====================
+
+Video 4: Feedback Form
+Use: feedback.css
+HTML: feedback.html
+Explain:
+- label display: block
+- input/select/textarea width and padding
+- border and border-radius
+- :focus
+- button
+- :hover
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PHASE 2 CSS FILE MAP
+====================
+
+Video 5: Grades Table
+Use: grades.css
+HTML: grades.html
+Explain:
+- width
+- border-collapse
+- th/td borders and padding
+- text-align
+- :nth-child(even)
+- :hover
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PHASE 2 CSS FILE MAP
+====================
+
+Video 6: Responsive Design
+Use: responsive.css
+HTML: all pages
+Explain:
+- @media
+- max-width
+- 768px breakpoint
+- 480px breakpoint
+- navigation row to column
+- course cards changing width
+- mobile table scrolling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PHASE 2 CSS FILE MAP
+====================
+
+Video 7: Stylish Online Resume Mini-Project
+Use: resume.css
+Explain:
+- two columns with Flexbox
+- section borders
+- padding and margin
+- responsive column stacking
+
+IMPORTANT:
+The CSS intentionally uses simple selectors and beginner-friendly
+properties so each video can be explained directly from the code.

@@ -1,0 +1,46 @@
+/* =========================================
+   contact.css
+   Contact Us Page
+   ========================================= */
+
+/* Contact section */
+.contact-section {
+  background-color: white;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Contact heading */
+.contact-section h2 {
+  color: #1e3a8a;
+  border-bottom: 2px solid #dbeafe;
+  padding-bottom: 8px;
+}
+
+/* Contact paragraphs */
+.contact-section p {
+  margin-bottom: 12px;
+}
+
+/* Address box */
+.contact-section address {
+  background-color: #f4f7fb;
+  padding: 15px;
+  margin: 20px 0;
+  border-left: 4px solid #2563eb;
+  border-radius: 5px;
+  font-style: normal;
+}
+
+/* Links */
+.contact-section a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+/* Link hover */
+.contact-section a:hover {
+  color: #1e3a8a;
+  text-decoration: underline;
+}

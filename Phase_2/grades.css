@@ -1,0 +1,52 @@
+/* =========================================
+   grades.css
+   Video 5 - Grades Table
+   ========================================= */
+
+/* Table */
+#grades-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Caption */
+#grades-table caption {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Table header */
+#grades-table th {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Table cells */
+#grades-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Zebra stripes */
+#grades-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Row hover */
+#grades-table tbody tr:hover {
+  background-color: #dbeafe;
+}
+
+/* Footer row */
+#grades-table tfoot td {
+  font-weight: bold;
+  background-color: #e0f2fe;
+}

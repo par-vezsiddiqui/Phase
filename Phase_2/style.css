@@ -1,0 +1,110 @@
+/*style.css
+    Video 1 - Header | Body | Footer applied as globally
+*/
+
+/* Box Model */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height:; /* Takes full viewport height */
+  min-height: 100vh;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+}
+
+/* Header */
+header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #2563eb;
+}
+
+header h1 {
+  color: white;
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+/* Navigation hover */
+nav a:hover {
+  background-color: #2563eb;
+  border-radius: 5px;
+}
+
+/* Main content */
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* Sections */
+section {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Normal links */
+main a {
+  color: #2563eb;
+}
+
+main a:hover {
+  color: #1e3a8a;
+}
+
+/* Footer */
+footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+footer p {
+  margin-bottom: 0;
+}
